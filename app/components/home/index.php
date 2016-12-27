@@ -1,8 +1,14 @@
-<?php require_once VIEWS . '/header.php'; ?>
+<?php require_once COMPONENTS . '/header.php'; ?>
 
 <div class='main wrapper clearfix'>
 
     <article>
+        <h1>Members</h1>
+        <ul>
+            {% for user in users %}
+                <li>{{ user.name|e }}</li>
+            {% endfor %}
+        </ul>
         <header>
             <h1>article section h1</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec.</p>
@@ -28,4 +34,4 @@
 
 </div> <!-- #main -->
 
-<?php require_once VIEWS . '/footer.php'; ?>
+<?php require_once COMPONENTS . '/footer.php'; ?>

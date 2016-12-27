@@ -33,6 +33,17 @@ class View{
     * @var string
     */
     private $output = null;
+
+    /**
+    * Holder for component
+    */
+    private $component = null;
+
+
+    /**
+    * Holder for View
+    */
+    private $view = null;
     
 
     /**
@@ -41,7 +52,7 @@ class View{
     * @return void
     */
     public function __construct($file){
-        $this->file = $file;
+        list($this->component, $this->view) = explode('/', $file);
         $this->load();
     }
 
@@ -51,9 +62,9 @@ class View{
     * @return void
     */
     public function load(){
-         if(file_exists(VIEWS . '/' . $this->file . '.php')){
+         if(file_exists(COMPONENTS . '/' . $this->component . '/' . $this->view . '.php')){
             ob_start();
-            require_once VIEWS . '/' . $this->file . '.php';
+            require_once COMPONENTS . '/' . $this->component . '/' . $this->view . '.php';
             $this->template = ob_get_clean();
             ob_end_clean();
         }
@@ -73,7 +84,7 @@ class View{
             $twig = new Twig_Environment($loader, array(
                 'cache' => APP_ROOT . '/cache'
             ));
+            echo $twig->render($this->output, $data);
         }
-        echo $twig->render($this->output, $data);
     }
 }

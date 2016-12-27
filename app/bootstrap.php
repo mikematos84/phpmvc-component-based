@@ -16,6 +16,7 @@ define("APP_ROOT", ROOT . "/app");
 define("VIEWS", APP_ROOT . "/views");
 define("CONTROLLERS", APP_ROOT . "/controllers");
 define("MODELS", APP_ROOT . "/models");
+define("COMPONENTS", APP_ROOT . "/components");
 
 /* Compose Autoload */
 require_once APP_ROOT . "/vendor/autoload.php";

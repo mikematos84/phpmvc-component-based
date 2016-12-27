@@ -1,4 +1,4 @@
-<?php require_once VIEWS . '/header.php'; ?>
+<?php require_once COMPONENTS . '/header.php'; ?>
 
 <div class='main wrapper clearfix'>
 
@@ -7,4 +7,4 @@
 
 </div> <!-- #main -->
 
-<?php require_once VIEWS . '/footer.php'; ?>
+<?php require_once COMPONENTS . '/footer.php'; ?>
