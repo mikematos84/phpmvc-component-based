@@ -43,8 +43,8 @@ class Controller{
     * @return void
     */
     public function loadModel($file){
-        if(file_exists(COMPONENTS . '/' . $file . '/' . $file . '.model.php')){
-            require_once COMPONENTS . '/' . $file . '/' . $file . '.model.php';
+        if(file_exists(COMPONENTS . '/' . $file . '/model.php')){
+            require_once COMPONENTS . '/' . $file . '/model.php';
             $model = ucfirst($file) . 'Model';
             $this->model = new $model();
         }else{

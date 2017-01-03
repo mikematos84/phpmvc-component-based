@@ -31,12 +31,12 @@ class App{
         $this->params = $this->url ? array_values($this->url) : [];
 
         //load controller
-        if(file_exists(COMPONENTS . '/' . $this->controller . '/' . $this->controller . '.controller.php')){
-            require_once COMPONENTS . '/' . $this->controller . '/' . $this->controller . '.controller.php';
+        if(file_exists(COMPONENTS . '/' . $this->controller . '/controller.php')){
+            require_once COMPONENTS . '/' . $this->controller . '/controller.php';
             $class = ucfirst($this->controller) . 'Controller';
             $controller = new $class();
         }else{
-            require_once COMPONENTS . '/error/error.controller.php';
+            require_once COMPONENTS . '/error/controller.php';
             $controller = new ErrorController();
         }
 

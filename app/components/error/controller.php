@@ -20,7 +20,7 @@ class ErrorController extends Controller{
     public function error404($params){
         $this->load('error/index')->render([
             'statusCode' => $this->statusCode,
-            'message' => 'Oops! Looks like you were searching for a page that is no longer around. We\'re sorry but how about we make it up to you. Here is a GIF of a happy cat.'
+            'message' => 'What the heck were you thinking. You can\'t go there'
         ]);
     }
 
