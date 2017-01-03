@@ -9,7 +9,7 @@
         "host": "localhost",
         "user": "root",
         "password": "",
-        "database": "negosim"
+        "database": ""
     }, 
 
     "require":[
