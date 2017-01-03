@@ -31,7 +31,6 @@ class Controller{
         $this->name = str_replace('Controller', '', get_class($this));
     }
 
-
     public function load($file){
         $this->loadModel($this->name);
         $this->loadView($file);

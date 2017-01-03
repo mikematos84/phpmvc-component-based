@@ -84,6 +84,19 @@ class View{
             $twig = new Twig_Environment($loader, array(
                 'cache' => APP_ROOT . '/cache'
             ));
+            
+            /** Render Defaults */
+            $info['site_title'] = 'PHP MVC';
+            $info['page_title'] = 'A component-based MVC Architecture';
+
+            if(array_key_exists('info', $data)){
+                foreach($data['info'] as $key => $value){
+                    $info[$key] = $value;
+                }
+            }
+            
+            $data['info'] = $info;
+            
             echo $twig->render($this->output, $data);
         }
     }
