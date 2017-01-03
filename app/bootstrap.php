@@ -13,9 +13,6 @@ define("SITE_URL", "http" . (($_SERVER["SERVER_PORT"]==443) ? "s://" : "://") . 
 define("DS", DIRECTORY_SEPARATOR);
 define("ROOT", dirname(dirname(__FILE__)));
 define("APP_ROOT", ROOT . "/app");
-define("VIEWS", APP_ROOT . "/views");
-define("CONTROLLERS", APP_ROOT . "/controllers");
-define("MODELS", APP_ROOT . "/models");
 define("COMPONENTS", APP_ROOT . "/components");
 
 /* Compose Autoload */
