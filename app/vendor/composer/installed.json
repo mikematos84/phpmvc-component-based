@@ -1,124 +1,5 @@
 [
     {
-        "name": "twig/twig",
-        "version": "v1.28.2",
-        "version_normalized": "1.28.2.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/twigphp/Twig.git",
-            "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/twigphp/Twig/zipball/b22ce0eb070e41f7cba65d78fe216de29726459c",
-            "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.2.7"
-        },
-        "require-dev": {
-            "symfony/debug": "~2.7",
-            "symfony/phpunit-bridge": "~3.2@dev"
-        },
-        "time": "2016-11-23 18:41:40",
-        "type": "library",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.28-dev"
-            }
-        },
-        "installation-source": "dist",
-        "autoload": {
-            "psr-0": {
-                "Twig_": "lib/"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause"
-        ],
-        "authors": [
-            {
-                "name": "Fabien Potencier",
-                "email": "fabien@symfony.com",
-                "homepage": "http://fabien.potencier.org",
-                "role": "Lead Developer"
-            },
-            {
-                "name": "Armin Ronacher",
-                "email": "armin.ronacher@active-4.com",
-                "role": "Project Founder"
-            },
-            {
-                "name": "Twig Team",
-                "homepage": "http://twig.sensiolabs.org/contributors",
-                "role": "Contributors"
-            }
-        ],
-        "description": "Twig, the flexible, fast, and secure template language for PHP",
-        "homepage": "http://twig.sensiolabs.org",
-        "keywords": [
-            "templating"
-        ]
-    },
-    {
-        "name": "adodb/adodb-php",
-        "version": "v5.20.7",
-        "version_normalized": "5.20.7.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/ADOdb/ADOdb.git",
-            "reference": "5022ed61cdda0950b404bedb01c52020f736526f"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/ADOdb/ADOdb/zipball/5022ed61cdda0950b404bedb01c52020f736526f",
-            "reference": "5022ed61cdda0950b404bedb01c52020f736526f",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.2"
-        },
-        "time": "2016-09-20 06:29:42",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "files": [
-                "adodb.inc.php"
-            ]
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "BSD-3-Clause",
-            "LGPL-2.1"
-        ],
-        "authors": [
-            {
-                "name": "John Lim",
-                "email": "jlim@natsoft.com",
-                "role": "Author"
-            },
-            {
-                "name": "Damien Regad",
-                "role": "Current maintainer"
-            },
-            {
-                "name": "Mark Newnham",
-                "role": "Developer"
-            }
-        ],
-        "description": "ADOdb is a PHP database abstraction layer library",
-        "homepage": "http://adodb.org/",
-        "keywords": [
-            "abstraction",
-            "database",
-            "layer",
-            "library",
-            "php"
-        ]
-    },
-    {
         "name": "psr/http-message",
         "version": "1.0.1",
         "version_normalized": "1.0.1.0",
@@ -292,6 +173,125 @@
             "laravel",
             "thumbnail",
             "watermark"
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.30.0",
+        "version_normalized": "1.30.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "c6ff71094fde15d12398eaba029434b013dc5e59"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/c6ff71094fde15d12398eaba029434b013dc5e59",
+            "reference": "c6ff71094fde15d12398eaba029434b013dc5e59",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.7"
+        },
+        "require-dev": {
+            "symfony/debug": "~2.7",
+            "symfony/phpunit-bridge": "~3.2@dev"
+        },
+        "time": "2016-12-23 11:06:22",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.30-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "http://twig.sensiolabs.org/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "adodb/adodb-php",
+        "version": "v5.20.9",
+        "version_normalized": "5.20.9.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ADOdb/ADOdb.git",
+            "reference": "f601748cca1ccb86dfd427620a1692a70e681075"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ADOdb/ADOdb/zipball/f601748cca1ccb86dfd427620a1692a70e681075",
+            "reference": "f601748cca1ccb86dfd427620a1692a70e681075",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.2"
+        },
+        "time": "2016-12-21 17:19:42",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "adodb.inc.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause",
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "John Lim",
+                "email": "jlim@natsoft.com",
+                "role": "Author"
+            },
+            {
+                "name": "Damien Regad",
+                "role": "Current maintainer"
+            },
+            {
+                "name": "Mark Newnham",
+                "role": "Developer"
+            }
+        ],
+        "description": "ADOdb is a PHP database abstraction layer library",
+        "homepage": "http://adodb.org/",
+        "keywords": [
+            "abstraction",
+            "database",
+            "layer",
+            "library",
+            "php"
         ]
     }
 ]

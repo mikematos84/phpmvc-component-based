@@ -9,16 +9,16 @@
     "packages": [
         {
             "name": "adodb/adodb-php",
-            "version": "v5.20.7",
+            "version": "v5.20.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ADOdb/ADOdb.git",
-                "reference": "5022ed61cdda0950b404bedb01c52020f736526f"
+                "reference": "f601748cca1ccb86dfd427620a1692a70e681075"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ADOdb/ADOdb/zipball/5022ed61cdda0950b404bedb01c52020f736526f",
-                "reference": "5022ed61cdda0950b404bedb01c52020f736526f",
+                "url": "https://api.github.com/repos/ADOdb/ADOdb/zipball/f601748cca1ccb86dfd427620a1692a70e681075",
+                "reference": "f601748cca1ccb86dfd427620a1692a70e681075",
                 "shasum": ""
             },
             "require": {
@@ -59,7 +59,7 @@
                 "library",
                 "php"
             ],
-            "time": "2016-09-20 06:29:42"
+            "time": "2016-12-21 17:19:42"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -233,16 +233,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.28.2",
+            "version": "v1.30.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c"
+                "reference": "c6ff71094fde15d12398eaba029434b013dc5e59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/b22ce0eb070e41f7cba65d78fe216de29726459c",
-                "reference": "b22ce0eb070e41f7cba65d78fe216de29726459c",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/c6ff71094fde15d12398eaba029434b013dc5e59",
+                "reference": "c6ff71094fde15d12398eaba029434b013dc5e59",
                 "shasum": ""
             },
             "require": {
@@ -255,7 +255,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.28-dev"
+                    "dev-master": "1.30-dev"
                 }
             },
             "autoload": {
@@ -290,7 +290,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-11-23 18:41:40"
+            "time": "2016-12-23 11:06:22"
         }
     ],
     "packages-dev": [],
