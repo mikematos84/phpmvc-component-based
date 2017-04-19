@@ -3,4 +3,7 @@
 *.css.map
 
 # Cache Folder
-app/cache
+cache
+
+# Composer
+vendor
