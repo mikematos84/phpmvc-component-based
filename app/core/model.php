@@ -2,12 +2,8 @@
 
 class Model{
 
-    protected $sql = null;
-
     public function __construct(){
         //construct class
-        require_once APP_ROOT . '/core/sql.php';
-        $sql = new Sql();
     }
 
     public function getJSON($file){

@@ -16,7 +16,6 @@
         "app",
         "controller",
         "model",
-        "view",
-        "sql"
+        "view"
     ]
 }
