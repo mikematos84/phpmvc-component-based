@@ -66,7 +66,6 @@ class View{
             ob_start();
             require_once COMPONENTS . '/' . $this->component . '/' . $this->view . '.php';
             $this->template = ob_get_clean();
-            ob_end_clean();
         }
     }
 

@@ -14,6 +14,7 @@ define("DS", DIRECTORY_SEPARATOR);
 define("ROOT", dirname(dirname(__FILE__)));
 define("APP_ROOT", ROOT . "/app");
 define("COMPONENTS", APP_ROOT . "/components");
+define("DIRECTIVES", APP_ROOT . "/directives");
 
 /* Compose Autoload */
 require_once APP_ROOT . "/vendor/autoload.php";

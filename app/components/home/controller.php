@@ -7,7 +7,7 @@ class HomeController extends Controller{
     }
 
     public function index($params = []){
-        $this->load('home/index')->render([
+        $this->load('index')->render([
             'aside' => $this->model->aside,
             'sections' => $this->model->sections
         ]);

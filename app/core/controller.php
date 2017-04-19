@@ -33,7 +33,7 @@ class Controller{
 
     public function load($file){
         $this->loadModel($this->name);
-        $this->loadView($file);
+        $this->loadView($this->name . '/' .$file);
         return $this->view;
     }
 

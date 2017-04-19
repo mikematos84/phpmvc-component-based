@@ -18,7 +18,7 @@ class ErrorController extends Controller{
     }
 
     public function error404($params){
-        $this->load('error/index')->render([
+        $this->load('index')->render([
             'statusCode' => $this->statusCode,
             'message' => 'Oops. Looks like you were looking for a page that no longer exists'
         ]);

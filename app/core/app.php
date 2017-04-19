@@ -8,8 +8,17 @@ class App{
     public $params = [];
     
     public function __construct(){
+        // header
+        require_once COMPONENTS . '/header/controller.php';
+        $header = new HeaderController();
+        $header->index([]);
+
         //parse the url
         $this->route();
+
+        require_once COMPONENTS . '/footer/controller.php';
+        $footer = new FooterController();
+        $footer->index([]);
     }
 
     public function route(){
@@ -42,7 +51,7 @@ class App{
 
         if(method_exists($controller, $this->action)){
             $controller->{$this->action}($this->params);
-        }
+        } 
     }
 
     public function parseURL(){

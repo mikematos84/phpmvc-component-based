@@ -1,5 +1,3 @@
-<?php require_once COMPONENTS . '/header.php'; ?>
-
 <div class='main wrapper clearfix'>
 
     <article>
@@ -18,5 +16,3 @@
     </aside>
 
 </div> <!-- #main -->
-
-<?php require_once COMPONENTS . '/footer.php'; ?>
